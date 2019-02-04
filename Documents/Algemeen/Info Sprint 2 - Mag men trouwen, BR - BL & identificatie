@@ -1,0 +1,19 @@
+Informatie Sprint 2 - Mag men trouwen (Business rules & business logica)
+
+Vanuit de procesbeschrijvingen & documentatie komen de volgende dingen naar voren:
+
+- Niet al getrouwd/geregistreerd partnerschap 
+  (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
+- Leeftijd - 18+ of 16+ & verklaring 
+  (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
+- Mag niet onder curatele staan 
+  (Registratie nog onbekend)
+- Mag niet trouwen met een bloedverwante, derde-vierde graads moet gemeld 
+  (bloedverwant te herleiden, 3e/4e graads niet, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
+- Nederlandse nationaliteit  - of een van de EER landen https://www.rijksoverheid.nl/onderwerpen/europese-unie/vraag-en-antwoord/welke-   landen-horen-bij-de-europese-economische-ruimte-eer
+  (Op te halen middels BSN? hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem en daar niet op te halen op     basis van BSN partners)
+
+Identificatie:
+
+- Mogelijkheden om DigiD te simuleren in de demo?
+- Is foto / scan ID voldoende om te identificeren? (App eindhoven?) 
