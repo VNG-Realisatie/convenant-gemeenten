@@ -1,0 +1,14 @@
+Sprint 1 : Datum, Tijd, Babs, Locatie
+
+Ingangen: Datum & Tijd / Babs / Locatie
+
+- Datum is er altijd 1
+- Tijd kan zowel een tijd als een tijdslot zijn, bv. 13:00 of 13:00 - 14:30
+- Lijkt vooralsnog meest gekozen ingang
+
+- Babs heeft verschillende opmerkingen:
+  Personen die ingang Babs kiezen, zullen zich ook meestal via Babs aanmelden
+  Keuze Babs moet ook leeg kunnen zijn, geen voorkeur ook voor gemeenten die Babs geen keuzemogelijkheid willen maken, c.q. zelf toewijzen
+  
+- Locatie moet ook eigen locatie kunnen zijn.
+  
