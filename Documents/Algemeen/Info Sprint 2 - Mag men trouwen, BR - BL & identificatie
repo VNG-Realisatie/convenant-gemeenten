@@ -3,15 +3,15 @@ Informatie Sprint 2 - Mag men trouwen (Business rules & business logica)
 Vanuit de procesbeschrijvingen & documentatie komen de volgende dingen naar voren:
 
 - Niet al getrouwd/geregistreerd partnerschap 
-  (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
+  (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend/backoffice tenzij nodig in aanlevering bericht backoffice)
 - Leeftijd - 18+ of 16+ & verklaring 
-  (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
+  (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend/backoffice tenzij nodig in aanlevering bericht backoffices)
 - Mag niet onder curatele staan 
-  (Registratie nog onbekend)
+  (Registratie nog onbekend, zie niets in Key2, navragen business)
 - Mag niet trouwen met een bloedverwante, derde-vierde graads moet gemeld 
   (bloedverwant te herleiden, 3e/4e graads niet, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
-- Nederlandse nationaliteit  - of een van de EER landen https://www.rijksoverheid.nl/onderwerpen/europese-unie/vraag-en-antwoord/welke-   landen-horen-bij-de-europese-economische-ruimte-eer
-  (Op te halen middels BSN? hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem en daar niet op te halen op     basis van BSN partners)
+- Nederlandse nationaliteit  - of een van de EER landen https://www.rijksoverheid.nl/onderwerpen/europese-unie/vraag-en-antwoord/welke-landen-horen-bij-de-europese-economische-ruimte-eer
+  (Op te halen middels BSN? hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem en daar niet op te halen op basis van BSN partners)
 
 Identificatie:
 
