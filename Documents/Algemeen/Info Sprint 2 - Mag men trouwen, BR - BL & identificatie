@@ -7,7 +7,8 @@ Vanuit de procesbeschrijvingen & documentatie komen de volgende dingen naar vore
 - Leeftijd - 18+ of 16+ & verklaring 
   (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend/backoffice tenzij nodig in aanlevering bericht backoffices)
 - Mag niet onder curatele staan 
-  (Registratie nog onbekend, zie niets in Key2, navragen business)
+  (Registratie nog onbekend, Gezagsverhouding in de PL key2)
+  (https://www.judex.nl/rechtsgebied/familie-echtscheiding/trouwen-samenwonen/artikelen/wie-mag-er-trouwen/)
 - Mag niet trouwen met een bloedverwante, derde-vierde graads moet gemeld 
   (bloedverwant te herleiden, 3e/4e graads niet, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
 - Nederlandse nationaliteit  - of een van de EER landen https://www.rijksoverheid.nl/onderwerpen/europese-unie/vraag-en-antwoord/welke-landen-horen-bij-de-europese-economische-ruimte-eer
