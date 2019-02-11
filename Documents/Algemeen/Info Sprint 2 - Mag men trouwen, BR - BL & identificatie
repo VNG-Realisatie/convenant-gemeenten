@@ -14,8 +14,9 @@ Vanuit de procesbeschrijvingen & documentatie komen de volgende dingen naar vore
   (bloedverwant te herleiden, 3e/4e graads niet, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
 - Nederlandse nationaliteit  - of een van de EER landen https://www.rijksoverheid.nl/onderwerpen/europese-unie/vraag-en-antwoord/welke-landen-horen-bij-de-europese-economische-ruimte-eer
   (Op te halen middels BSN? hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem en daar niet op te halen op basis van BSN partners)
+  Europese nationaliteit (geboorteakte meestal ontbrekend), buiten Europa ook verblijfsrecht
 
 Identificatie:
 
 - Mogelijkheden om DigiD te simuleren in de demo?
-- Is foto / scan ID voldoende om te identificeren? (App eindhoven?) 
+- Is foto / scan ID voldoende om te identificeren? (App eindhoven?) of pas op locatie / gesprek met BABS
