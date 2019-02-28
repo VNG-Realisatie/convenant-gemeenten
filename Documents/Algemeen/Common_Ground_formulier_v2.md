@@ -18,6 +18,16 @@ Bij vragen of problemen helpen we graag!
 # Projectinformatie
 ## Projecttitel
 
+Convenant Gemeenten – Trouw applicatie
+
 ## Deelnemende organisaties
 
+VNG Realisatie, Gemeenten Almere, Amsterdam, Drechterland, Enkhuizen, Haarlem, Heereveen, Hoorn, Koggeland, Medemblik, Opmeer, Stede Broec en Zaanstad. Gemeente Utrecht en Eindhoven zijn een soort gelijke traject eerder gestart, beide partijen zullen elkaar op de hoogte houden en helpen. 
+
 ## Contactpersonen
+
+Lead developer Front -  Stefan Woudstra  - s.woudstra@heerenveen.nl
+Lead developer Back - Thijs Broersen - t.broersen@hoorn.nl
+Lead architect - Bas de Boer - bdeboer@haarlem.nl
+Lead Proces – Daphne de Bruijn - dadebruijn@almere.nl 
+
