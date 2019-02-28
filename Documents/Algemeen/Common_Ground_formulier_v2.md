@@ -75,7 +75,7 @@ NLX, Camunda (BPMn /DMN) voor de proceslaag, bestaande ‘Trouw’ APIs van de 3
 IM model Trouwen op basis van de beschikbare ‘trouw’ apis en het komen tot een ‘trouw standaard’. Ontwerpen van proces en business logica en deze middels APIs ontsluiten naar de front-end.
 
 ## B6 Kun je een plaatje aanleveren van de oplossingsarchitectuur geplot op het vijf-lagen model ?
-![5 lagen model Common Ground](./Documents/Architectuur/img/5lagen.png?raw=true)
+![5 lagen model Common Ground](/Documents/Architectuur/img/5lagen.png?raw=true)
 
 
 
