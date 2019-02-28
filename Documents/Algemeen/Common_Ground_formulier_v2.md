@@ -27,6 +27,7 @@ VNG Realisatie, Gemeenten Almere, Amsterdam, Drechterland, Enkhuizen, Haarlem, H
 * Lead developer Back - Thijs Broersen - t.broersen@hoorn.nl
 * Lead architect - Bas de Boer - bdeboer@haarlem.nl
 * Lead Proces – Daphne de Bruijn - dadebruijn@almere.nl 
+* Scrum Master - Jan Willem Kooi - jan.willem.kooi@sltn.nl
 
 ## Korte omschrijving van het project
 We ontwikkelen een set aan generieke tools waarmee gemeenten hun inwoners in staat kunnen stellen om, in standaardsituaties, hun huwelijk zoveel mogelijk digitaal te regelen. Dit doen we gebaseerd op de principes van Common Ground en ontwikkellen met Open Source Software. Het doel is dat we het project zo afronden, dat er met een generieke API aangesloten kan worden op een eigen front-end, maar voor het presenteren ontwikkelen wij een eigen demo front-end.  
