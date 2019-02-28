@@ -26,8 +26,8 @@ VNG Realisatie, Gemeenten Almere, Amsterdam, Drechterland, Enkhuizen, Haarlem, H
 
 ## Contactpersonen
 
-Lead developer Front -  Stefan Woudstra  - s.woudstra@heerenveen.nl
-Lead developer Back - Thijs Broersen - t.broersen@hoorn.nl
-Lead architect - Bas de Boer - bdeboer@haarlem.nl
-Lead Proces – Daphne de Bruijn - dadebruijn@almere.nl 
+* Lead developer Front -  Stefan Woudstra  - s.woudstra@heerenveen.nl
+* Lead developer Back - Thijs Broersen - t.broersen@hoorn.nl
+* Lead architect - Bas de Boer - bdeboer@haarlem.nl
+* Lead Proces – Daphne de Bruijn - dadebruijn@almere.nl 
 
