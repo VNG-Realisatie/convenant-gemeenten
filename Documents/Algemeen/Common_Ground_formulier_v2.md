@@ -30,7 +30,7 @@ VNG Realisatie, Gemeenten Almere, Amsterdam, Drechterland, Enkhuizen, Haarlem, H
 * Scrum Master - Jan Willem Kooi - jan.willem.kooi@sltn.nl
 
 ## Korte omschrijving van het project
-We ontwikkelen een set aan generieke tools waarmee gemeenten hun inwoners in staat kunnen stellen om, in standaardsituaties, hun huwelijk zoveel mogelijk digitaal te regelen. Dit doen we gebaseerd op de principes van Common Ground en ontwikkellen met Open Source Software. Het doel is dat we het project zo afronden, dat er met een generieke API aangesloten kan worden op een eigen front-end, maar voor het presenteren ontwikkelen wij een eigen demo front-end.  
+We ontwikkelen een set aan generieke tools waarmee gemeenten hun inwoners in staat kunnen stellen om, in standaardsituaties, hun huwelijk zoveel mogelijk digitaal te regelen. Dit doen we gebaseerd op de principes van Common Ground en ontwikkellen met Open Source Software. Het doel is dat we het project zo afronden, dat er met een generieke API aangesloten kan worden op een eigen front-end. Voor het presenteren ontwikkelen wij een eigen demo front-end.  
 
 ## Wat is de looptijd/globale planning van het gehele project (inclusief belangrijke deadlines) en welke rol speelt 11, 2,13 maart daarin?
 
@@ -52,18 +52,18 @@ We ontwikkelen een set aan generieke tools waarmee gemeenten hun inwoners in sta
 ## Waar ga je op 11 en 12 maart aan werken?
 *Voorbeeld: Implementatie van het benodigde formulier en koppeling via NLX*
 
-Wij gan samen ontwikkelen, er zal een deel bezig zijn met mock-ups en proces omschrijving, ander deel zal zich buigen over de data en back-end. 
+Wij gaan samen ontwikkelen, er zal een deel bezig zijn met mock-ups en proces omschrijving, ander deel zal zich buigen over de data en back-end. 
 
 ## Hoe maakt het project gebruik van, of draagt het bij aan de verwezenlijking van de Common Ground principes ?
 *Voorbeeld: we scheiden data en interactie en proces in afzonderlijke componenten, 
 die voor andere gemeenten herbruikbaar zijn*
 
-Wij verplichten onszelf om alle principes te gebruiken betreft Common Ground, dit is namelijk de reden van dit project.
+Wij verplichten onszelf om alle Common Ground principes te gebruiken. Dit is een van de redenen van dit project.
 
 ## Welke bestaande componenten wil je gaan hergebruiken?
 *Voorbeeld: Inschrijfformulier: omschrijving, NLX-inway/outway, API: omschrijving*
 
-NLX, Camunda (BPMn /DMN) voor de proceslaag, bestaande ‘Trouw’ APIs van de 3 BRP leveranciers
+NLX, Camunda (BPMn /DMN) voor de proceslaag, bestaande ‘Trouw’ APIs van de 3 BRP-leveranciers
 
 ## Welke componenten worden nieuw ontwikkeld?
 *Voorbeeld: Inschrijfformulier: omschrijving, API voor inschrijvingen: omschrijving*
