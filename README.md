@@ -36,6 +36,7 @@ De volgende documenten beschrijven dit project:
 - Scrum Master:  [@JanWillemKooi](https://github.com/JanWillemKooi)
 
 ## Snelle links
+[https://github.com/convenantgemeenten](https://github.com/convenantgemeenten)
 
 ## Licentie
 Copyright © VNG Realisatie 2018
