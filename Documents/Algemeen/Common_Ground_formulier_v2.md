@@ -53,29 +53,29 @@ We ontwikkelen een set aan generieke tools waarmee gemeenten hun inwoners in sta
 * Toepassing Common ground
 * Aanpak Samenwerking en samenstelling; hoe we het tot nu toe gedaan hebben en verder willen gaan aanpakken
 
-## B2 Waar ga je op 11 en 12 maart aan werken?
+## Waar ga je op 11 en 12 maart aan werken?
 *Voorbeeld: Implementatie van het benodigde formulier en koppeling via NLX*
 
 Wij gaan samen ontwikkelen, er zal een deel bezig zijn met mock-ups en proces omschrijving, ander deel zal zich buigen over de data en back-end. 
 
-## B3 Hoe maakt het project gebruik van, of draagt het bij aan de verwezenlijking van de Common Ground principes ?
+## Hoe maakt het project gebruik van, of draagt het bij aan de verwezenlijking van de Common Ground principes ?
 *Voorbeeld: we scheiden data en interactie en proces in afzonderlijke componenten, 
 die voor andere gemeenten herbruikbaar zijn*
 
 Wij verplichten onszelf om alle Common Ground principes te gebruiken. Dit is een van de redenen van dit project.
 
-## B4 Welke bestaande componenten wil je gaan hergebruiken?
+## Welke bestaande componenten wil je gaan hergebruiken?
 *Voorbeeld: Inschrijfformulier: omschrijving, NLX-inway/outway, API: omschrijving*
 
 NLX, Camunda (BPMn /DMN) voor de proceslaag, bestaande ‘Trouw’ APIs van de 3 BRP-leveranciers
 
-## B5 Welke componenten worden nieuw ontwikkeld?
+## Welke componenten worden nieuw ontwikkeld?
 *Voorbeeld: Inschrijfformulier: omschrijving, API voor inschrijvingen: omschrijving*
 
 IM model Trouwen op basis van de beschikbare ‘trouw’ apis en het komen tot een ‘trouw standaard’. Ontwerpen van proces en business logica en deze middels APIs ontsluiten naar de front-end.
 
-## B6 Kun je een plaatje aanleveren van de oplossingsarchitectuur geplot op het vijf-lagen model ?
-//TODO Uploaden foto
+## Kun je een plaatje aanleveren van de oplossingsarchitectuur geplot op het vijf-lagen model ?
+![5 lagen model Common Ground](./Documents/Architectuur/img/5lagen.png?raw=true)
 
 
 
