@@ -37,8 +37,7 @@ De volgende documenten beschrijven dit project:
 
 ## Snelle links
 [https://github.com/convenantgemeenten](https://github.com/convenantgemeenten)
-
-[https://trello.com/b/IS5kRF4A/convenant-gemeenten] (Trello Scrumboard Convenant gemeente - Trouw applicatie)
+[https://trello.com/b/IS5kRF4A/convenant-gemeenten](Trello Scrumboard Convenant gemeente - Trouw applicatie)
 
 - Placeholder voor Architectuurplaat stakeholders
 - Placeholder voor Architectuurplaat Techniek 
