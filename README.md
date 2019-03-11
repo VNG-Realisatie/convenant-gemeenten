@@ -37,6 +37,11 @@ De volgende documenten beschrijven dit project:
 
 ## Snelle links
 [https://github.com/convenantgemeenten](https://github.com/convenantgemeenten)
+[https://trello.com/b/IS5kRF4A/convenant-gemeenten] (Trello Scrumboard Convenant gemeente - Trouw applicatie)
+- Placeholder voor Architectuurplaat stakeholders
+- Placeholder voor Architectuurplaat Techniek 
+- Placeholder voor prototype Front-End
+- Placeholder voor Wireframe
 
 ## Licentie
 Copyright © VNG Realisatie 2018
