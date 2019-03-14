@@ -42,7 +42,6 @@ Trello Scrumboard: [Trello Scrumboard Convenant gemeente - Trouwproces](https://
 
 - Placeholder voor Architectuurplaat stakeholders
 - Placeholder voor Architectuurplaat Techniek 
-- Placeholder voor prototype Front-End
 - Placeholder voor Wireframe
 
 ## Licentie
