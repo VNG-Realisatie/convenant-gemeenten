@@ -36,7 +36,7 @@ De volgende documenten beschrijven dit project:
 - Scrum Master:  [@JanWillemKooi](https://github.com/JanWillemKooi)
 
 ## Snelle links
-Repositories: [https://github.com/convenantgemeenten](https://github.com/convenantgemeenten)
+Repositories: [https://github.com/convenantgemeenten](https://github.com/convenantgemeenten)  
 Demo frontend: [http://demo.convenantgemeenten.nl/trouwplanner](http://demo.convenantgemeenten.nl/trouwplanner) 
 
 [Trello Scrumboard Convenant gemeente - Trouwproces](https://trello.com/b/IS5kRF4A/convenant-gemeenten)
