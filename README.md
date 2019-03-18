@@ -39,8 +39,8 @@ De volgende documenten beschrijven dit project:
 Repositories: [https://github.com/convenantgemeenten](https://github.com/convenantgemeenten)  
 Demo frontend: [http://demo.convenantgemeenten.nl/trouwplanner](http://demo.convenantgemeenten.nl/trouwplanner)  
 Trello Scrumboard: [Trello Scrumboard Convenant gemeente - Trouwproces](https://trello.com/b/IS5kRF4A/convenant-gemeenten)  
+Architectuurplaat stakeholders: [Architectuurplaat stakeholders](https://github.com/VNG-Realisatie/convenant-gemeenten/blob/master/Documents/Architectuur/Trouwplanner%20-%20architectuur%20-%20stakeholders.pdf)  
 
-- Placeholder voor Architectuurplaat stakeholders
 - Placeholder voor Architectuurplaat Techniek 
 - Placeholder voor Wireframe
 
