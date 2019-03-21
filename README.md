@@ -6,8 +6,16 @@ Een aantal gemeenten hebben begin 2018 een convenant getekend waarin ze afspreke
 
 De volgende afspraken gelden:
 
-Er wordt volgens GEMMA-standaarden, met Open Source software en op basis van open standaarden ontwikkeld
-* Ontwikkeling door de gemeenten gebeurt met het oog op hergebruik en aansluiting op de al ontwikkelde componenten  
+* We ontwikkelen een set aan generieke tools waarmee gemeenten hun inwoners in staat kunnen stellen om, in standaardsituaties, hun huwelijk zoveel mogelijk digitaal te regelen
+* We houden daarbij rekening met bestaande ICT situatie (legacy burgerzakenapplicaties) bij gemeenten
+* Het is gebaseerd op de principes van Common Ground
+* Het is ontwikkeld met Open Source Software
+* We ontwikkelen een demo front-end 
+* We maken dit zo dat het met een generieke API aan kan sluiten op een eigen front-end. Deze API is beschreven
+* We leveren een beschrijving voor gemeenten op:
+* Wat is de functionele werking van het trouwproduct
+* Wat ze moeten doen om onze tools in te kunnen zetten. Welke registers hebben ze nodig etc.
+
 * Het intellectueel eigendom van de ontwikkelde software/ API’s bij de gezamenlijke gemeenten ligt
 * Uitgangspunt is een agile ontwikkelen met een beheerst wijzigingsproces, waarin de technisch experts samen standaard componenten en/of  services ontwikkelen. Zonder de noodzaak van overhead-constructies voor formele (ambtelijke of bestuurlijke) bekrachtiging van deze standaarden
 * De ontwikkelde API’s/ webservices/componenten worden door de gemeenten ter beschikking gesteld op een centraal platform voor andere gemeenten
