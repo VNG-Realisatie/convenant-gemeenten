@@ -16,7 +16,7 @@ De volgende afspraken gelden:
 * Wat is de functionele werking van het trouwproduct
 * Wat ze moeten doen om onze tools in te kunnen zetten. Welke registers hebben ze nodig etc.
 
-
+---
 * Het intellectueel eigendom van de ontwikkelde software/ API’s bij de gezamenlijke gemeenten ligt
 * Uitgangspunt is een agile ontwikkelen met een beheerst wijzigingsproces, waarin de technisch experts samen standaard componenten en/of  services ontwikkelen. Zonder de noodzaak van overhead-constructies voor formele (ambtelijke of bestuurlijke) bekrachtiging van deze standaarden
 * De ontwikkelde API’s/ webservices/componenten worden door de gemeenten ter beschikking gesteld op een centraal platform voor andere gemeenten
