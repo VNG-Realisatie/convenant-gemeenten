@@ -12,6 +12,7 @@ Vanuit de procesbeschrijvingen & documentatie komen de volgende dingen naar vore
   GBA-V = categorie Gezag 11/61, element 33.10
 - Mag niet trouwen met een bloedverwante, derde-vierde graads moet gemeld 
   (bloedverwant te herleiden, 3e/4e graads niet, hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem)
+  https://www.rijksoverheid.nl/onderwerpen/curatele-bewind-en-mentorschap/vraag-en-antwoord/bloedverwantschap
 - Nederlandse nationaliteit  - of een van de EER landen https://www.rijksoverheid.nl/onderwerpen/europese-unie/vraag-en-antwoord/welke-landen-horen-bij-de-europese-economische-ruimte-eer
   (Op te halen middels BSN? hoeft niet persé via API kan ook in frontend tenzij nodig in backoffice systeem en daar niet op te halen op basis van BSN partners)
   Europese nationaliteit (geboorteakte meestal ontbrekend), buiten Europa ook verblijfsrecht
