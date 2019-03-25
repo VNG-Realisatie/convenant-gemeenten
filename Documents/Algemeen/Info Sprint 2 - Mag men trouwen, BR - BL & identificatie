@@ -4,7 +4,7 @@ Vanuit de procesbeschrijvingen & documentatie komen de volgende dingen naar vore
 
 - Niet al getrouwd/geregistreerd partnerschap 
   (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend/backoffice tenzij nodig in aanlevering bericht backoffice)
-- Leeftijd - 18+  
+- Leeftijd - 18+  (op de dag van trouwen)
   (Op te halen middels BSN, hoeft niet persé via API kan ook in frontend/backoffice tenzij nodig in aanlevering bericht backoffices)
 - Mag niet onder curatele staan (Wanneer wel onder curatele, bewindvoerder akkoord)
   (Registratie in curatelergister (https://curateleenbewindregister.rechtspraak.nl), Gezagsverhouding in de PL key2)
