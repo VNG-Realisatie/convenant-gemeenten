@@ -54,7 +54,6 @@ Wireframe: [Figma Wireframes](https://www.figma.com/file/PZtGGVGqQQWM7hbco5UE64S
 
 
 - Placeholder voor Architectuurplaat Techniek 
-- Placeholder voor Wireframe
 
 ## Licentie
 Copyright © VNG Realisatie 2018
