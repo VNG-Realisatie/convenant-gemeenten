@@ -1,18 +1,6 @@
-Locatie: ;Gemeentehuis;Gemeentehuis - Raadzaal;Schip de Bounty;Librije;Honeymoonsweet;;;
-Straat:;Demonstratielaan;Dick Ketlaan;Hoofd;Grote markt;Raadhuisplein;;;
-Nummer:;1;21;1;2;1;;;
-Postcode: ;1234 AB;1687 CD ;1620AA;2011 RD;9411 NB;;;
-Plaats: ;Demodam;Wognum;Hoorn;Haarlem;Beilen;;;
-Max. aantal personen: ;105;200;350;20;6;;;
-Vanaf prijs: ;€ 25,00;€ 50,00;€ 500,00;€ 75,00;€ 0,00;;;
-E-mailadres: ;info@demodam.nl;info@medemblik.nl;info@trouwschip.nl;antwoord@haarlem.nl;gemeente@middendrenthe.nl;;;
-Telefoonnummer;012-3456789;0229 856 000;06 5117 3043;14 023;0593 53 92 22;;;
-Website: ;www.demodam.nl/Trouwen;www.medemblik.nl;www.trouwschip.nl;www.haarlem.nl;www.middendrenthe.nl;;;
-Foto: ;;;;;;;;
-Omschrijving: ;Het gemeentehuis dateert uit 2019 en is een prachtig voorbeeld van de echte Hollandse demonstratiestijl. De trouwzaal heeft een historische, maar tegelijkertijd moderne, ruime uitstraling door de mooie lichtinval.;Meer in het middelpunt kunnen jullie niet staan. In onze mooie ruime romantische raadzaal staat een ronde tafel waarin jullie het ja-woord kunnen geven. Omringt met familie en vrienden.  ;Letterlijk in het huwelijksbootje stappen. Geef het ja-woord met wind in de zeilen en vaar met elkaar de toekomst in. ;Klassiek en romantisch, echt een plekje om elkaar het ja-woord te geven.  ;Speciaal knus kamertje waar jullie als klein gezelschap een mooi moment kunnen hebben tijdens de verbinding.  ;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
+"Locatie: ";"Straat:";"Nummer:";"Postcode: ";"Plaats: ";"Max. aantal personen: ";"Vanaf prijs: ";"E-mailadres: ";"Telefoonnummer";"Website: ";"Foto: ";"Omschrijving: "
+"Gemeentehuis";"Demonstratielaan";1;"1234 AB";"Demodam";105;â‚¬ 25.00;"info@demodam.nl";"012-3456789";"www.demodam.nl/Trouwen";;"Het gemeentehuis dateert uit 2019 en is een prachtig voorbeeld van de echte Hollandse demonstratiestijl. De trouwzaal heeft een historische, maar tegelijkertijd moderne, ruime uitstraling door de mooie lichtinval."
+"Gemeentehuis - Raadzaal";"Dick Ketlaan";21;"1687 CDÂ ";"Wognum";200;â‚¬ 50.00;"info@medemblik.nl";"0229 856 000";"www.medemblik.nl";;"Meer in het middelpunt kunnen jullie niet staan. In onze mooie ruime romantische raadzaal staat een ronde tafel waarin jullie het ja-woord kunnen geven. Omringt met familie en vrienden.  "
+"Schip de Bounty";"Hoofd";1;"1620AA";"Hoorn";350;â‚¬ 500.00;"info@trouwschip.nl";"06 5117 3043";"www.trouwschip.nl";;"Letterlijk in het huwelijksbootje stappen. Geef het ja-woord met wind in de zeilen en vaar met elkaar de toekomst in. "
+"Librije";"Grote markt";2;"2011 RD";"Haarlem";20;â‚¬ 75.00;"antwoord@haarlem.nl";"14 023";"www.haarlem.nl";;"Klassiek en romantisch, echt een plekje om elkaar het ja-woord te geven.  "
+"Honeymoonsweet";"Raadhuisplein";1;"9411 NB";"Beilen";6;â‚¬ 0.00;"gemeente@middendrenthe.nl";"0593 53 92 22";"www.middendrenthe.nl";;"Speciaal knus kamertje waar jullie als klein gezelschap een mooi moment kunnen hebben tijdens de verbinding.  "
