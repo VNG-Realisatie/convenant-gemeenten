@@ -39,7 +39,7 @@ De volgende documenten beschrijven dit project:
 
 ## Rollen
 
-- Opdrachtgever: Jitze Bakker (Almere), Wouter Bruijning (Utrecht), Patrick Castenmiller (Westfriesland), Henk Post (Heerenveen)
+- Opdrachtgever: Jan Willem Woolderink (Almere), Wouter Bruijning (Utrecht), Patrick Castenmiller (Westfriesland), Henk Post (Heerenveen)
 - Delivery manager VNG: [@wishalg](https://github.com/wishalg)
 - Product Owner: [@Kim Engel](https://github.com/kimengel)
 - Scrum Master:  [@JanWillemKooi](https://github.com/JanWillemKooi)
