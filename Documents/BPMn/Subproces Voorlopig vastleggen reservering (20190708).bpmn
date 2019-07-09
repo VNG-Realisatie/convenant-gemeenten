@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_0v8peuk" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="4.0.0">
+  <bpmn:process id="Process_1dreajw" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_0279v2f">
+      <bpmn:outgoing>SequenceFlow_0sjq7qa</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_1hbe6bb" name="Check beschikbaarheid locatie">
+      <bpmn:incoming>SequenceFlow_1jzt622</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0bbdlm1</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0sjq7qa" sourceRef="StartEvent_0279v2f" targetRef="Task_0vi510z" />
+    <bpmn:sequenceFlow id="SequenceFlow_1jzt622" sourceRef="ExclusiveGateway_0m0qos3" targetRef="Task_1hbe6bb" />
+    <bpmn:parallelGateway id="ExclusiveGateway_0m0qos3">
+      <bpmn:incoming>SequenceFlow_1nzriyd</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1jzt622</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_04k7kwj</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:task id="Task_17kg6cj" name="Check beschikbaarheid trouwambtenaar">
+      <bpmn:incoming>SequenceFlow_04k7kwj</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_01yolo0</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_04k7kwj" sourceRef="ExclusiveGateway_0m0qos3" targetRef="Task_17kg6cj" />
+    <bpmn:sequenceFlow id="SequenceFlow_1nzriyd" sourceRef="Task_0vi510z" targetRef="ExclusiveGateway_0m0qos3" />
+    <bpmn:businessRuleTask id="Task_0vi510z" name="Check geldige datum">
+      <bpmn:incoming>SequenceFlow_0sjq7qa</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1nzriyd</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0bbdlm1" sourceRef="Task_1hbe6bb" targetRef="ExclusiveGateway_09awahl" />
+    <bpmn:parallelGateway id="ExclusiveGateway_09awahl">
+      <bpmn:incoming>SequenceFlow_0bbdlm1</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_01yolo0</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0t7ilxn</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_01yolo0" sourceRef="Task_17kg6cj" targetRef="ExclusiveGateway_09awahl" />
+    <bpmn:endEvent id="EndEvent_1wp4neq">
+      <bpmn:incoming>SequenceFlow_0t7ilxn</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_0t7ilxn" sourceRef="ExclusiveGateway_09awahl" targetRef="EndEvent_1wp4neq" />
+    <bpmn:textAnnotation id="TextAnnotation_1wyqv4s">
+      <bpmn:text>Start proces:
+Voorlopig vastleggen reservering</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_107fj2g" sourceRef="StartEvent_0279v2f" targetRef="TextAnnotation_1wyqv4s" />
+    <bpmn:textAnnotation id="TextAnnotation_1as9ym2">
+      <bpmn:text>Bijvoorbeeld:
+Ligt de datum niet te ver in de toekomst?</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_01mbcaj" sourceRef="Task_0vi510z" targetRef="TextAnnotation_1as9ym2" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1dreajw">
+      <bpmndi:BPMNShape id="StartEvent_0279v2f_di" bpmnElement="StartEvent_0279v2f">
+        <dc:Bounds x="242" y="282" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="219" y="213" width="82" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1wyqv4s_di" bpmnElement="TextAnnotation_1wyqv4s">
+        <dc:Bounds x="160" y="196" width="200" height="40" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_107fj2g_di" bpmnElement="Association_107fj2g">
+        <di:waypoint x="260" y="282" />
+        <di:waypoint x="260" y="236" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Task_1hbe6bb_di" bpmnElement="Task_1hbe6bb">
+        <dc:Bounds x="580" y="360" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0sjq7qa_di" bpmnElement="SequenceFlow_0sjq7qa">
+        <di:waypoint x="278" y="300" />
+        <di:waypoint x="330" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1jzt622_di" bpmnElement="SequenceFlow_1jzt622">
+        <di:waypoint x="510" y="325" />
+        <di:waypoint x="510" y="400" />
+        <di:waypoint x="580" y="400" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ParallelGateway_14dfcqy_di" bpmnElement="ExclusiveGateway_0m0qos3">
+        <dc:Bounds x="485" y="275" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_17kg6cj_di" bpmnElement="Task_17kg6cj">
+        <dc:Bounds x="580" y="260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_04k7kwj_di" bpmnElement="SequenceFlow_04k7kwj">
+        <di:waypoint x="535" y="300" />
+        <di:waypoint x="580" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1nzriyd_di" bpmnElement="SequenceFlow_1nzriyd">
+        <di:waypoint x="430" y="300" />
+        <di:waypoint x="485" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="BusinessRuleTask_1u5z26u_di" bpmnElement="Task_0vi510z">
+        <dc:Bounds x="330" y="260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0bbdlm1_di" bpmnElement="SequenceFlow_0bbdlm1">
+        <di:waypoint x="680" y="400" />
+        <di:waypoint x="800" y="400" />
+        <di:waypoint x="800" y="325" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ParallelGateway_01zm0y1_di" bpmnElement="ExclusiveGateway_09awahl">
+        <dc:Bounds x="775" y="275" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_01yolo0_di" bpmnElement="SequenceFlow_01yolo0">
+        <di:waypoint x="680" y="300" />
+        <di:waypoint x="775" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_1wp4neq_di" bpmnElement="EndEvent_1wp4neq">
+        <dc:Bounds x="882" y="282" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0t7ilxn_di" bpmnElement="SequenceFlow_0t7ilxn">
+        <di:waypoint x="825" y="300" />
+        <di:waypoint x="882" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="TextAnnotation_1as9ym2_di" bpmnElement="TextAnnotation_1as9ym2">
+        <dc:Bounds x="440" y="110" width="100" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_01mbcaj_di" bpmnElement="Association_01mbcaj">
+        <di:waypoint x="408" y="260" />
+        <di:waypoint x="465" y="180" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
