@@ -1,0 +1,45 @@
+Gegevensdiensten (data-services): CRUD
+- Ambtenaren (tbv trouwambtenaren/babs)
+- Locaties (tbv trouwlocaties)
+- Agenda's (tbv afspraken met objecten (locaties, personen, producten))
+- Afspraken
+- Personen (tbv partners, getuigen)
+
+Informatiediensten (knowledge-services): informatiediensten zijn rest-services voor het maken van toets-objecten, deze kunnen worden uitgevoerd op bepaalde informatiediensten of gegevensdiensten en het toets-object wordt verrijkt met het resultaat. 
+
+- LeeftijdsTest; is persoon {a} ouder dan {b} op datum {c} met toetsdatum {d}
+  - a: ref naar persoon
+  - b: leeftijd in jaren
+  - c: datum waarvoor de leeftijd moet worden bepaald
+  - d: datum waar tegen de test wordt uitgevoerd (staat van de data, tijdsreizen)
+
+- BloedverwantschapsTest; is persoon {a} bloedverwant aan persoon {b} binnen {c} graden/stappen met toetsdatum {d}
+  - a: ref naar persoon
+  - b: ref naar persoon
+  - c: aantal graden
+  - d: datum waar tegen de test wordt uitgevoerd (staat van de data, tijdsreizen)
+
+- PartnerTest; heeft persoon {a} een partner op datum {c} met toetsdatum {d}
+  - a: ref naar persoon
+  - c: datum waarvoor de relatie met een partner moet worden bepaald
+  - d: datum waar tegen de test wordt uitgevoerd (staat van de data, tijdsreizen)
+
+- CurateleTest; staat persoon {a} onder curatele op datum {c} met toetsdatum {d}
+  - a: ref naar persoon
+  - c: datum waarvoor de curatele status moet worden bepaald
+  - d: datum waar tegen de test wordt uitgevoerd (staat van de data, tijdsreizen)
+
+Procesdiensten (process-services): procesdiensten zijn rest-services op proces-data objecten, afhankelijk van het type object en de status (attributen) zijn bepaalde functies wel/niet mogelijk.
+
+- Melden trouwen; persoon {a} wil trouwen met persoon {b} en getuigen {c} (optioneel: reservering trouwen {d})
+  - a: ref naar persoon
+  - b: ref naar persoon
+  - c: ref naar persoon* (min 2, max 4)
+  - d: ref naar reservering trouwen
+
+- Reservering trouwen; reservering mbt trouwen van locatie {a}, babs {b} en extra's {c} voor datum {d}
+  - a: ref naar locatie
+  - b: ref naar babs
+  - c: extra producten
+  - d: datum waarvoor de reservering geldt
+
